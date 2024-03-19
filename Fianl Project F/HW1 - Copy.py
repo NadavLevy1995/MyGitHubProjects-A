@@ -352,6 +352,7 @@ if __name__ == '__main__':
                                            download=True, transform=transformations[0])
     testloader = torch.utils.data.DataLoader(testset, batch_size=args["batch_size"],
                                              shuffle=False, num_workers=2)
+    print('hi there\n')
 
     #augmantation("Base", "A")                                                          # To run with different Image Augmantations with Softmax loss func
     #augmantation("Base", "C")                                                          # To run with different Image Augmantations with Softmax loss func
